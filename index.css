@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 40px;
+    cursor: pointer;
+    color: #1852bd;
+    box-shadow: 0 0 5px rgb(75, 189, 170), 0 0 25px rgb(89, 98, 224),
+        0 0 50px rgb(119, 126, 216), 0 0 100px rgb(119, 126, 216),
+        0 0 200px #7c9cd8;
+}
+
+body {
+    background-color: rgb(202, 235, 235);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.global-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(121, 124, 124);
+    width: 300px;
+}
+
+.input-btn {
+    padding: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.add-button {
+    background-color: rgba(24, 231, 86, 0.212);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
+        0 0 200px cyan;
+}
+
+.input1 {
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.todo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+}
+
+.todo li {
+    border: solid rgba(74, 12, 190, 0.753);
+    border-radius: 10px;
+    margin: 5px;
+    background-color: aliceblue;
+    align-items: center;
+    padding: 10px;
+}
+.deleteButton {
+    cursor: pointer;
+    background-color: red;
+}
+.deleteButton:host {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
+        0 0 200px cyan;
+}
